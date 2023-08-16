@@ -1,0 +1,23 @@
+#tweet-text {
+  border: 0;
+  width: 100%;
+  background-color: seashell;
+  border-bottom: solid;
+  border-bottom-width: thin;
+}
+
+button {
+  font-family: "Bungee";
+  color: cornsilk;
+  background-color: darkslateblue;
+}
+
+#counter {
+    font-family: "Bungee";
+}
+
+#button-counter-div{
+    display:flex;
+    justify-content: space-between;
+}
+
