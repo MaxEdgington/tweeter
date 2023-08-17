@@ -32,7 +32,14 @@ This is version 0.01 as of Thursday, August 17th, 2023. I hope to add the follow
 
 ## Final Product
 
-!["Tweeter!"](https://github.com/MaxEdgington/tweeter/blob/master/public/images/Tweeter%20Images/Tweeter.png)
-!["Tweet Functionality with Profile Data!"](https://github.com/MaxEdgington/tweeter/blob/master/public/images/Tweeter%20Images/Tweet-container.png)
-!["Desktop Responsive!"](https://github.com/MaxEdgington/tweeter/blob/master/public/images/Tweeter%20Images/Desktop-responsive.png)
-!["Error Handling!"](https://github.com/MaxEdgington/tweeter/blob/master/public/images/Tweeter%20Images/Error-handling.png)
+- Tweeter!
+  !["Tweeter!"](https://github.com/MaxEdgington/tweeter/blob/master/public/images/Tweeter%20Images/Tweeter.png)
+
+- Tweet Functionality with Profile Data!
+  !["Tweet Functionality with Profile Data!"](https://github.com/MaxEdgington/tweeter/blob/master/public/images/Tweeter%20Images/Tweet-container.png)
+
+- Desktop Responsive!
+  !["Desktop Responsive!"](https://github.com/MaxEdgington/tweeter/blob/master/public/images/Tweeter%20Images/Desktop-responsive.png)
+
+- Error Handling!
+  !["Error Handling!"](https://github.com/MaxEdgington/tweeter/blob/master/public/images/Tweeter%20Images/Error-handling.png)
