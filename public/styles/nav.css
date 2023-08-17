@@ -1,12 +1,20 @@
 nav {
-    font-family: 'Bungee', cursive;
-    height: 100px;
-    width: -webkit-fill-available;
-    background-color: #4056A1;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    position: fixed;
+  font-family: "Bungee", cursive;
+  height: 100px;
+  width: -webkit-fill-available;
+  background-color: #4056a1;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  position: fixed;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main {
+    max-width: 1024px;
+    font-size: 16px;
+    margin: 2 auto;
+  }
 }

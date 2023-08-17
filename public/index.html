@@ -16,6 +16,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+3:ital,wght@0,300;0,600;1,300;1,600&display=swap"
     rel="stylesheet" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -41,34 +42,44 @@
 
 <!-- Char Counter JS -->
 <script type="text/javascript" src="scripts/composer-char-counter.js"></script>
+
+<!-- Timeago -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
 
 <body>
-  <!-- Top nav bar (fixed) -->
+
+  <!-- Navbar-->
   <nav>
-    <span>tweeterd</span>
-    <span class="source-sans"><i class="fa-solid fa-angles-down fa-bounce"></i><b>Write</b> a new
-      tweet</span>
-  </nav>
+    <span>Tweeter</span>
+    <span class="source-sans"><b>Write</b> a new tweet
+        <i class="fa-solid fa-angles-down fa-bounce"></i>
+    </span>
+</nav>
+    
+<!-- Hero-->
   <header>
     <div>
       <img src="/images/profile-hex.png" />
     </div>
     <br />
     <div>
-      <h2>Your Name</h2>
+      <h2>Max</h2>
     </div>
   </header>
 
-  <!-- Page-specific (main) content here -->
+  <!-- Body -->
   <main class="container">
     <h1>Tweets</h1>
-
-    <!-- HTML Markup to create the form-->
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
-      <form method="POST" action="/tweets/">
+
+       <!-- Tweet Functionality HTML -->
+      <form method="POST" action="/tweets" id = "tweetForm">
         <label for="tweet-text">What are you humming about?</label>
+        <div class="error-length display-none">Error: You have exceeded maximum character count.</div>
+        <div class="error-no-message display-none">Error: You must enter text to submit Tweet.</div>
         <textarea name="text" id="tweet-text"></textarea>
         <div class="button-counter-div">
           <button type="submit">Tweet</button>
@@ -78,28 +89,8 @@
 
     </section>
 
+     <!-- Tweet Container -->
     <section class="main-container">
-      <article>
-        <section class="tweet-header flex-justify">
-          <div class="icon-name">
-            <i class="fa-solid fa-pepper-hot" style="color: #d91717;"></i>
-            <h4>Bob</h4>
-          </div>
-          <h4>@Bobnana</h4>
-        </section>
-        <h2 class="tweeted-text"> If I have seen it further it is by standing on my stand.</h2>
-        <hr>
-        <footer class="tweet-footer flex-justify">
-          <h4> 5 minutes ago </h4>
-          <div class="tweet-icons">
-            <i class="fa-solid fa-flag" ></i>
-            <i class="fa-solid fa-retweet"></i>
-            <i class="fa-solid fa-heart"></i>
-            
-          </div>
-        </footer>
-
-      </article>
     </section>
   </main>
 </body>
