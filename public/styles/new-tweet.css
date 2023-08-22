@@ -14,11 +14,13 @@ button {
 
 #counter {
   font-family: "Bungee";
+
 }
 
-#button-counter-div {
+.button-counter-div {
   display: flex;
   justify-content: space-between;
+  font-family: "Bungee";
 }
 
 .red {
