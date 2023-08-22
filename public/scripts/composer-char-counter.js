@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  console.log("working!");
   const characterLimit = 140;
 
   $("#tweet-text").on("input", function() {
