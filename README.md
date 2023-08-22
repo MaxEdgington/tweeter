@@ -2,9 +2,9 @@
 
 Tweeter is a simple, single-page Twitter clone.
 
-The app was built with HTML, CSS, JS, jQuery and AJAX, while using Node and Express for the backend.
+The app was built with HTML, CSS, JS, jQuery, and AJAX while using Node and Express for the backend.
 
-I really enjoyed this project! I recieved fantastic mentor support, shared ideas with excellent colleagues and have started appreciating the power of jQuery and Ajax to create fantastic asynchronous functionality!
+I really enjoyed this project! I received fantastic mentor support, shared ideas with excellent colleagues, and have started appreciating the power of jQuery and Ajax to create fantastic asynchronous functionality!
 
 This is version 0.01 as of Thursday, August 17th, 2023. I hope to add the following features as I continue learning how to code:
 
