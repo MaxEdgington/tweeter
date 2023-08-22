@@ -21,8 +21,6 @@ $(() => {
         loadTweets();
       },
       error: function(error) {
-        console.log("there was an error ", error);
-
         //Jquery sending error message if post does not work
         $(".error-no-message").removeClass("display-none");
       },
@@ -37,7 +35,6 @@ const createTweetElement = function(tweet) {
   let handle = "No handle";
   let text = "No text";
   let createdAt = "Undefined";
-  console.log("tweet object: ", tweet);
 
   //Handling user data assignment
   if (tweet.user.avatars) {
