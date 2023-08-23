@@ -93,6 +93,7 @@ h4 {
 
 .tweeted-text {
   margin-left: 2%;
+  word-wrap: break-word;
 }
 
 .icon-name {

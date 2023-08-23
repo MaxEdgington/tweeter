@@ -88,10 +88,10 @@ $(() => {
 
     //this is element triggering this event, using find to find any selector/child component and using property.length
     const inputValLength = ($(this).find("textarea").val().trim().length);
-
+    console.log(inputValLength);
 
     // error messages which stop submission on line 108
-    if (inputValLength < 0) {
+    if (inputValLength === 0) {
       $(".error-no-message").removeClass("display-none");
       return;
     }
